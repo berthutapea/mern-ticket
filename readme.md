@@ -27,7 +27,8 @@ In the first terminal
 ```
 $ cd frontend
 $ npm install (to install frontend-side dependencies)
-$ npm run  start (to start the frontend)
+$ npm run start (to start the frontend)
+
 ```
 
 In the second terminal
@@ -51,6 +52,7 @@ JWT_SECRET =
 
 $ npm install (to install backend-side dependencies)
 $ npm start (to start the backend)
+
 ```
 
 ##  Key Features
