@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+.parent {
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    .parent {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+.visible {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 40;
+    height: 4rem;
+    transition: 0.3s linear;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.nav-hidden {
+    top: -80px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #6b7280;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 3px;
+}

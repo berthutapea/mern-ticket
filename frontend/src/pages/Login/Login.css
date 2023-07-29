@@ -1,0 +1,26 @@
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #6b7280;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 3px;
+}
